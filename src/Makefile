@@ -8,6 +8,7 @@ house: house.c
 travel: travel.c
 	gcc $(CFLAGS) travel.c -o ../bin/travel
 
+
 clean:
 	rm -rf *.o *.a  ../bin/*
 
