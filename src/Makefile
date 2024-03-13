@@ -17,4 +17,4 @@ check:
 	cppcheck --enable=all --suppress=missingIncludeSystem *.c 
 	valgrind --tool=memcheck --leak-check=yes --track-origins=yes -s ../bin/travel
 # test:
-# 	pytest --color=yes -v --tb=short tests
+# 	pytest --color=yes -v --tb=short tests 
